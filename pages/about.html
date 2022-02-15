@@ -30,9 +30,68 @@
         width: 100%;
     }
     .about-us h1{
+        content: "";
         text-align: center;
         font-size: 40px;
         color: gray;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        text-decoration: underline;
+    }
+    .about-us h1::after{
+        height: 5px;
+        width: 200px;
+margin: auto;
+display: block;
+    }
+
+    .wrapper {
+        padding: 0px 60px;
+        margin: 60px auto;
+    }
+
+    .content{
+        width: 60%;
+        float: left;
+        text-align: center;
+        padding: 0px 30px;
+    }
+    .content h3{
+        color: #222;
+        letter-spacing: 1px;
+
+    }
+    .content p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        color: rgb(20, 22, 22);
+        margin-top: 30px;
+    }
+    .content .button{
+        margin-top: 40px;
+    }
+.content .button a{
+    color: #fff;
+    background-color: #2b9ec2;
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+.content .button a:hover{
+    background-color: #fff;
+    color: #2b9e;
+}
+    .image {
+        width: 40%;
+        float: right;
+        padding: 0px 30px;
+    }
+    .image img{
+        max-width: 100%;
+        height: auto;
     }
 </style>
 
@@ -70,6 +129,8 @@
 
 
 <hr>
+<br>
+<br>
     <div class="jumbotron">
         <h1 class="display-4">Hello, world!</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
