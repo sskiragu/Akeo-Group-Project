@@ -2,6 +2,12 @@ body {
   font-family: "Montserrat";
   text-align: center;
 }
+img {
+  object-fit: cover;
+  vertical-align: middle;
+  border-style: none;
+  height: 70vh;
+}
 #features {
   position: relative;
 }
@@ -15,16 +21,53 @@ body {
 }
 
 .icon {
-  color: #e5f0f5;
+  color: #119ddd;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #cecece;
 }
 
 /* Testimonial Section */
+#sch {
+  padding: 7% 15%;
+  background-color: #faf8f4;
+}
 
+.pink {
+  width: auto;
+  height: 100%;
+}
+#activity {
+  padding: 7% 15%;
+  background-color: #f0f0f0;
+}
+.learn {
+  width: auto;
+  height: 100%;
+}
+#culture {
+  padding: 7% 15%;
+  background-color: #f8f8f8;
+}
+.taek {
+  width: auto;
+  height: 100%;
+  margin-left: 32%;
+}
+
+.ninjas {
+  height: 100vh;
+  width: auto;
+  border-radius: 100%;
+  position: relative;
+  align-items: center;
+}
+.p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
 #testimonials {
   background-color: #c1e0f5;
 }
@@ -39,3 +82,5 @@ body {
   border-radius: 100%;
   margin: 20px;
 }
+
+/* footer */
